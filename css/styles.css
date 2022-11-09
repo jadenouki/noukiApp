@@ -1,0 +1,187 @@
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  background-color: #E38B29;
+  /*
+  background: radial-gradient(#f1A661, white);
+  min-height: 100vh;
+  */
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-pic {
+  display: none;
+  /*
+  display: inline-block;
+  width: 15em;
+  */
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #E1D6C8;
+  height: 100vh;
+  width: 50%;
+  z-index: 999;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  /* using transition for later when using javascript*/
+  transition: transform .5s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8em;
+}
+
+nav ul a {
+  color: black;
+  padding: .75em 2em;
+  /*padding on a 'a' element wont work unless displayed block*/
+  display: block;
+}
+
+nav ul a:hover {
+  background: rgb(235, 235, 235);
+}
+
+nav .close {
+  float: right;
+  margin: 2em;
+  width: 2.5em;
+}
+
+.open-nav{
+  transform: translateX(0%);
+}
+
+.close {
+  width: .5em;
+}
+
+.top {
+  background: #E38B29;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  margin-right: 2em;
+  width: 3em;
+}
+
+.logo-pic-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /*
+  display:none;
+  */
+}
+
+.middle {
+  text-align: center;
+  padding-bottom: 3em;
+  /*
+  display: flex;
+  justify-content: space-around;
+  padding: 4em 2em;
+  */
+}
+
+.hero {
+  padding-bottom: 3em;
+  /*
+  padding-top: 4em;
+  */
+}
+
+h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 5em;
+  padding-bottom: 1em;
+}
+
+p {
+  margin: 0 4em;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.second-section {
+  background-color: #FDEEDC;
+  padding: 8em 0;
+  /*
+  margin: 0 2em 3em 2em;
+  padding: 1.5em 0;
+  */
+}
+
+h3 {
+  color: #E38B29;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.ending {
+  text-align: center;
+}
+
+button {
+  background-color: #F3E0B5;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-radius: 12px;
+}
+
+button:hover {
+  background-color: #FECD70;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bottom {
+  padding: 2em 0 4em 0;
+  background-color: #A3A3A3;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.header {
+  font-weight: bold;
+  margin-bottom: 2em;
+}
+
+.text-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.text-link a:hover{
+  color: white;
+}
+
+.bottom ul {
+  list-style-type: none;
+}
